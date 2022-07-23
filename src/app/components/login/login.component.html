@@ -1,0 +1,19 @@
+<div class="widget">
+    <po-widget>
+        <div class="logo">
+            <img class="empresa" src="../../../assets/totvs-logo.png" alt="Logo da empresa">
+        </div>
+
+        <div class="login">
+            <po-login p-label="Usuário" [(ngModel)]="login"></po-login>
+        </div>
+
+        <div class="passwd">
+            <po-password p-label="Senha" [(ngModel)]="password"></po-password>
+        </div>
+
+        <div class="send">
+            <po-button class="btn-send" p-label="Enviar" p-type="primary" (p-click)="sendLogin()"></po-button>
+        </div>
+    </po-widget>
+</div>
